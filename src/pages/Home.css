@@ -1,0 +1,42 @@
+body{
+  background-color: #6E5480;
+}
+#title{
+    background-color:#282c34;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+#title h1{
+  font-family: Kelly Slab;
+  font-size: 45px;
+}
+
+#images{
+  display: grid;
+}
+#row{
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#img1{
+  background-image: url(../../public/photos/games/lit.png);
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 500px){
+  #images{
+    display: flex;
+  }
+  #row{
+      display: grid;
+  }
+  #img1{
+    margin-top: 30px;
+  }
+}

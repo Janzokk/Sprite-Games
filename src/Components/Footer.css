@@ -1,0 +1,38 @@
+.footer-menu{
+    background-color: #292033;
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#col{
+    display: flex;
+    padding: 15px;
+    width: 33%;
+    justify-content: space-around;
+}
+#menu_op{
+    width: 150px;
+    height: 40px;
+    border: 2px solid #F35054;
+    border-radius: 12px;
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 500px){
+    #col{
+        display: grid;
+    }
+    #menu_op{
+        width: 125px;
+        height: 33px;
+    }
+}
